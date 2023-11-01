@@ -1,5 +1,5 @@
 {
-  "name": "practice/module-packagecomponent",
+  "name": "learnig/module-packagecomponent",
   "description": "Testing how to package component",
   "type": "magento2-module",
   "license": "GPL-3.0",
@@ -19,7 +19,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Practice\\PackageComponent\\": ""
+      "Learning\\PackageComponent\\": ""
     }
   }
 }

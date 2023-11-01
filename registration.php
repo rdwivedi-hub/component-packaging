@@ -7,4 +7,4 @@ declare(strict_types=1);
  */
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Practice_PackageComponent', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Learning_PackageComponent', __DIR__);
