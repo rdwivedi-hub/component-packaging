@@ -1,0 +1,25 @@
+{
+  "name": "practice/module-packagecomponent",
+  "description": "Testing how to package component",
+  "type": "magento2-module",
+  "license": "GPL-3.0",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Rishabh Dwivedi",
+      "email": "rishabh.dwivedi34@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~8.1.0||~8.2.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Practice\\PackageComponent\\": ""
+    }
+  }
+}
